@@ -1,8 +1,4 @@
-#   This file is part of Invoke-Obfuscation.
-#
-#   Copyright 2017 Daniel Bohannon <@danielhbohannon>
-#         while at Mandiant <http://www.mandiant.com>
-#
+
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
 #   You may obtain a copy of the License at
@@ -28,33 +24,24 @@ Write-Host "instead." -ForegroundColor Red
 
 
 <#
-.SYNOPSIS
-
-PowerShell module file for importing all required modules for the Invoke-Obfuscation framework.
-
-Invoke-Obfuscation Module Loader
-Author: Daniel Bohannon (@danielhbohannon)
-License: Apache License, Version 2.0
-Required Dependencies: None
-Optional Dependencies: None
- 
-.DESCRIPTION
-
-PowerShell module file for importing all required modules for the Invoke-Obfuscation framework.
-
-.EXAMPLE
-
-C:\PS> Import-Module .\Invoke-Obfuscation.psm1
-
-.NOTES
-
-PowerShell module file for importing all required modules for the Invoke-Obfuscation framework.
-This is a personal project developed by Daniel Bohannon while an employee at MANDIANT, A FireEye Company.
-
-.LINK
-
-http://www.danielbohannon.com
+    .SYNOPSIS
+        PowerShell module file for importing all required modules for the Invoke-Obfuscation framework.
+        Invoke-Obfuscation Module Loader
+        Author: David Sass (@sassdawe)
+        License: Apache License, Version 2.0
+        Required Dependencies: None
+        Optional Dependencies: None
+    .DESCRIPTION
+        PowerShell module file for importing all required modules for the Invoke-Obfuscation framework.
+    .EXAMPLE
+        C:\PS> Import-Module .\Invoke-Obfuscation.psm1
+    .NOTES
+        PowerShell module file for importing all required modules for the Invoke-Obfuscation framework.
+        This is a personal project developed by Daniel Bohannon while an employee at MANDIANT, A FireEye Company.
+    .LINK
+        http://www.danielbohannon.com
 #>
+
 <#
 # Confirm all necessary commands are loaded and import appropriate .ps1 files in current directory if necessary.
 Write-Host "`n[*] Validating necessary commands are loaded into current PowerShell session.`n"
